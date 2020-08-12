@@ -1,19 +1,27 @@
-/*colorused:
-#478A94
-#427D51
-#839447
-#8A7442*/
+/*
+Project Name: Loaded Content by AJAX
+Author: Ke Cheng
+/*
+
+/*
+Font:
+font-family: 'Roboto Slab',serif;
+font-family: 'Roboto',sans-serif;
+Color:
+#0063b2
+*/
 * {
-	content-a-sizing: border-content-a;
+	box-sizing: border-box;
 }
 
 html {
-  line-height: 1.5;
+	line-height: 1.5;
 }
 
 h1,h2{
 	font-family: 'Roboto Slab',serif;
 }
+
 p,a{
 	font-size: 1.25rem;
 	font-family: 'Roboto',sans-serif;
@@ -60,8 +68,9 @@ li a{
 	background-repeat: repeat;
 	height: 250px;
 }
+
 .container{
-    text-align: center;
+    text-align: left;
     max-width: 70rem;
     margin: auto;
     padding: 1.5rem 0.8rem;
@@ -74,7 +83,6 @@ li a{
 .content-a{
     display: block;
     padding: 2rem 0;
-    border-bottom: solid 1px #ccc;
 }
 
 .article{
