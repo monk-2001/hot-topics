@@ -1,5 +1,5 @@
-var wrapper = document.querySelector(".container");
-var tabs = document.querySelectorAll("header nav a");
+const wrapper = document.querySelector(".container");
+const tabs = document.querySelectorAll("header nav a");
 
 let url = 'partials/home.html';
 
